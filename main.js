@@ -28,9 +28,6 @@ function dynamicallycreateelement(){
         imgofficercollege.classList.add('imgofficercollege')
         imgofficercollege.src = officers[i].collegeimg
 
-        let circlebackground = document.createElement('div')
-        circlebackground.classList.add('circlebackground')
-
         //etong text container as div kasi need natin ilagay dito yung names, quotes as well as yung vote icon
         let textcontainer = document.createElement('div');
         textcontainer.classList.add('textcontainer')
@@ -71,7 +68,6 @@ function dynamicallycreateelement(){
         textcontainer.appendChild(votecontainer)
 
         addOfficers.appendChild(imgofficer);
-        addOfficers.appendChild(circlebackground);
         addOfficers.appendChild(imgofficercollege);
         addOfficers.appendChild(textcontainer);
 
