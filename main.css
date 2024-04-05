@@ -82,7 +82,7 @@
 
     .officers-placard{
         height: 180px;
-        width: 340px;
+        width: auto;
         border-radius: 30px;
     }
 
