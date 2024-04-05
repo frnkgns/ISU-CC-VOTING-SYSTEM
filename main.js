@@ -17,48 +17,40 @@ function dynamicallycreateelement(){
     //natin iinitialized yung mga dynamically elements as weels yung mga styles nila
     for(let i = 0; i < officers.length; i++){
         let addOfficers = document.createElement('div');
-        addOfficers.image = officers[i].image;
-        addOfficers.style.display = "flex";
-        addOfficers.style.height = '300px';
-        addOfficers.style.width = '500px';
-        addOfficers.style.margin = '10px';
-        addOfficers.style.borderRadius = '50px';
-        addOfficers.style.backgroundColor = 'White';
-        addOfficers.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 1)';
+        addOfficers.classList.add('officers-placard')
+        //ito namang classlist.add basically parang nag bibigay tayo ng class para magamit natin to sa css
 
         let imgofficer = document.createElement('img');
+        imgofficer.classList.add('imgofficer')
         imgofficer.src = officers[i].image
 
         //etong text container as div kasi need natin ilagay dito yung names, quotes as well as yung vote icon
         let textcontainer = document.createElement('div');
+        textcontainer.classList.add('textcontainer')
         textcontainer.style.textAlign = 'left'
 
         let officername = document.createElement('p')
+        officername.classList.add('officername')
         officername.textContent = officers[i].name;
-        officername.style.marginTop = '50px';
-        officername.style.fontFamily = 'sans-serif';
-        officername.style.fontWeight = 'bold'
         officername.style.color = officers[i].collegecolor
 
         let officerquote = document.createElement('p')
+        officerquote.classList.add('officerquote')
         officerquote.textContent = officers[i].quotes;
-        officerquote.style.marginTop = '30px';
-        officerquote.style.padding = '20px'
-        officerquote.style.fontFamily = 'sans-serif';
 
         let votetext = document.createElement('p')
+        votetext.classList.add('votetext')
         votetext.textContent = "Vote"
         votetext.style.fontFamily = 'sans-serif'
 
         let imgvote = document.createElement('img')
+        imgvote.classList.add('imgvote')
         imgvote.src = checkimg
-        imgvote.style.height = '50px';
 
         let votecontainer = document.createElement('div')
-        votecontainer.style.display = 'flex'
-        votecontainer.style.marginTop = '40px'
-        votecontainer.style.marginLeft = '190px'
+        votecontainer.classList.add('votecontainer')
 
+        //itong mga nasa baba ibig sabihin naman neto is nilalagay natin sa loob ng element kung ano yung nasa parenthesis
         votecontainer.appendChild(votetext)
         votecontainer.appendChild(imgvote)
 

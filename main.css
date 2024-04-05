@@ -7,10 +7,86 @@
     flex-wrap: wrap;
 }
 
+.officers-placard{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.officername{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.officerquote{
+    margin-top: 30px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.imgvote{
+    height: 50px;
+}
+
+.votecontainer{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 190px;
+}
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
 @media screen and (max-width: 375px){
-    .isu{
-        text-align: center;
+
+    .stdntldrs{
+        margin-top: 40px;
+        font-family: sans-serif;
+        margin-right: 40px;
+    }
+
+    .prsdnt{
+        font-family: sans-serif;
+        margin-right: 50px;
+        font-weight: bold;
+    }
+
+    .officers-placard{
+        height: 180px;
+        width: 290px;
+        border-radius: 30px;
+    }
+
+    .imgofficer{
+        height: auto;
+    }
+
+    .officername{
+        font-size: 10px;
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    .officerquote{
+        font-size: 10px;
+        margin-top: 5px;
+        width: 150px;
+    }
+
+    .votecontainer{
+        margin-top: 0px;
+        width: 80px;
+        margin-left: 100px;
+    }
+
+    .imgvote{
+        height: 30px;
+    }
+
+    .votetext{
+        font-size: 10px;
     }
     
 }
