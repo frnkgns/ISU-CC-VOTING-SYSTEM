@@ -7,6 +7,13 @@
     flex-wrap: wrap;
 }
 
+.president{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .officers-placard{
     display: flex;
     height: 300px;
@@ -17,10 +24,32 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
+.imgofficercollege{
+    position: absolute;
+    height: 100px;
+    align-self:last baseline
+}
+
+.circlebackground{
+    position: absolute;
+    padding: 50px;
+    height: 5px;
+    border-radius: 0 50px 50px 50px;
+    background-color: white;
+    align-self:last baseline
+
+}
+
 .officername{
     margin-top: 50px;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.officercourse{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: -14px;
 }
 
 .officerquote{
@@ -35,7 +64,7 @@
 
 .votecontainer{
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 190px;
 }
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
@@ -61,10 +90,24 @@
         height: auto;
     }
 
+    .imgofficercollege{
+        height: 60px;
+    }
+    
+    .circlebackground{
+        height: 3px;
+        padding: 30px;
+    }
+
     .officername{
         font-size: 10px;
         width: 150px;
         margin-top: 30px;
+    }
+
+    .officercourse{
+        font-size: 8px;
+        margin-top: -8px;
     }
 
     .officerquote{

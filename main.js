@@ -4,10 +4,10 @@ let button = document.getElementById("btn");
 function dynamicallycreateelement(){
     //so this is actually an array objects parang mag sstore lang tayo ng maraming varaible sa array
     const officers = [
-        {name:'Cleighrone Maramag', collegecolor: 'RED',image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving."}, 
-        {name:'Don Don Comia', collegecolor: 'gold', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {name:'Jusip Orinio', collegecolor: 'darkviolet', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {name: 'Junny Lester Paguia', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." }
+        {name:'Cleighrone Maramag', collegeimg: 'Pictures/cct.png' ,course: 'BSCS - 3A DM',collegecolor: 'RED',image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving."}, 
+        {name:'Don Don Comia', collegeimg: 'Pictures/BED.png', course: 'BED - 3A DM', collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {name:'Jusip Orinio', collegeimg: 'Pictures/sas.png', course: 'BAELS - 3A DM', collegecolor: 'darkviolet', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." }
     ]
 
     //no need ilagay sa object array since lahat naman ng placard gagamit nito
@@ -24,6 +24,13 @@ function dynamicallycreateelement(){
         imgofficer.classList.add('imgofficer')
         imgofficer.src = officers[i].image
 
+        let imgofficercollege = document.createElement('img');
+        imgofficercollege.classList.add('imgofficercollege')
+        imgofficercollege.src = officers[i].collegeimg
+
+        let circlebackground = document.createElement('div')
+        circlebackground.classList.add('circlebackground')
+
         //etong text container as div kasi need natin ilagay dito yung names, quotes as well as yung vote icon
         let textcontainer = document.createElement('div');
         textcontainer.classList.add('textcontainer')
@@ -33,6 +40,10 @@ function dynamicallycreateelement(){
         officername.classList.add('officername')
         officername.textContent = officers[i].name;
         officername.style.color = officers[i].collegecolor
+
+        let officercourse = document.createElement('p')
+        officercourse.classList.add('officercourse')
+        officercourse.textContent = officers[i].course;
 
         let officerquote = document.createElement('p')
         officerquote.classList.add('officerquote')
@@ -55,10 +66,13 @@ function dynamicallycreateelement(){
         votecontainer.appendChild(imgvote)
 
         textcontainer.appendChild(officername);
+        textcontainer.appendChild(officercourse)
         textcontainer.appendChild(officerquote);
         textcontainer.appendChild(votecontainer)
 
         addOfficers.appendChild(imgofficer);
+        addOfficers.appendChild(circlebackground);
+        addOfficers.appendChild(imgofficercollege);
         addOfficers.appendChild(textcontainer);
 
         //eto yung pinaka mother div yung candidates
