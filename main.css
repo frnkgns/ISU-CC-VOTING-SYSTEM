@@ -67,7 +67,7 @@
     margin-left: 190px;
 }
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 360px){
 
     .stdntldrs{
         margin-top: 40px;
@@ -81,7 +81,7 @@
 
     .officers-placard{
         height: 180px;
-        width: auto;
+        width: 323px;
         border-radius: 30px;
     }
 
