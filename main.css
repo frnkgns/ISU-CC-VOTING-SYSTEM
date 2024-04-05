@@ -61,16 +61,22 @@
     margin-left: 190px;
 }
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
+
+
 @media screen and (max-width: 360px){
 
     .stdntldrs{
         margin-top: 40px;
         font-family: sans-serif;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
     }
 
     .prsdnt{
         font-family: sans-serif;
         font-weight: bold;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
     }
 
     .officers-placard{
@@ -107,7 +113,7 @@
     .votecontainer{
         margin-top: 0px;
         width: 80px;
-        margin-left: 140px;
+        margin-left: 137px;
     }
 
     .imgvote{
@@ -120,6 +126,7 @@
     
 }
 
+/*
 @media screen and (max-width: 412px){
 
     .stdntldrs{
