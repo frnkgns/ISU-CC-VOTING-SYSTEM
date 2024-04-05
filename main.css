@@ -101,7 +101,7 @@ body{
 
 
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
-@media screen and (max-width: 280px){
+@media screen and (min-width: 280px){
 
     .isuhead{
         height: 60px;
@@ -171,7 +171,7 @@ body{
     
 }
 
-@media screen and (max-width: 360px){
+@media screen and (min-width: 360px){
 
     .isuhead{
         height: 70px;
@@ -237,7 +237,7 @@ body{
     
 }
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
 
     .isuhead{
         height: 70px;
@@ -303,7 +303,7 @@ body{
     
 }
 
-@media screen and (max-width: 390px){
+@media screen and (min-width: 390px){
 
     .isuhead{
         height: 70px;
@@ -369,7 +369,7 @@ body{
     
 }
 
-@media screen and (max-width: 412px){
+@media screen and (min-width: 412px){
 
     .isuhead{
         height: 80px;
@@ -436,7 +436,7 @@ body{
     
 }
 
-@media screen and (max-width: 414px){
+@media screen and (min-width: 414px){
 
     .isuhead{
         height: 80px;
@@ -503,7 +503,7 @@ body{
     
 }
 
-@media screen and (max-width: 430px){
+@media screen and (min-width: 430px){
 
     .isuhead{
         height: 80px;
@@ -570,7 +570,7 @@ body{
     
 }
 
-@media screen and (max-width: 540px){
+@media screen and (min-width: 540px){
 
     .isuhead{
         height: 80px;
@@ -637,7 +637,7 @@ body{
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 
     .isuhead{
         height: 80px;
@@ -704,7 +704,7 @@ body{
     
 }
 
-@media screen and (max-width: 820px){
+@media screen and (min-width: 820px){
 
     .isuhead{
         height: 80px;
@@ -771,8 +771,7 @@ body{
     
 }
 
-
-@media screen and (max-width: 853px){
+@media screen and (min-width: 853px){
 
     .isuhead{
         height: 70px;
@@ -838,7 +837,7 @@ body{
     
 }
 
-@media screen and (max-width: 912px){
+@media screen and (min-width: 912px){
 
     .isuhead{
         height: 70px;
@@ -904,7 +903,7 @@ body{
     
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
 
     .isuhead{
         height: 70px;
