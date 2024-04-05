@@ -106,6 +106,7 @@ body{
     .isuhead{
         height: 60px;
         margin-left: -130px;
+        margin-top: -10px;
     }
 
     .stdntldrs{
@@ -135,16 +136,16 @@ body{
     }
 
     .officername{
-        font-size: 10px;
+        font-size: 12px;
         width: 150px;
-        margin-top: 30px;
-        margin-left: -30px;
+        margin-top: 20px;
+        margin-left: -20px;
     }
 
     .officercourse{
-        font-size: 8px;
-        margin-top: -8px;
-        margin-left: -30px;
+        font-size: 10px;
+        margin-top: -10px;
+        margin-left: -20px;
 
     }
 
@@ -206,12 +207,14 @@ body{
 
     .officername{
         font-size: 14px;
-        width: 150px;
-        margin-top: 30px;
+        width: 180px;
+        margin-left: -10px;
+        margin-top: 20px;
     }
 
     .officercourse{
         font-size: 10px;
+        margin-left: -10px;
         margin-top: -8px;
     }
 
@@ -222,7 +225,7 @@ body{
     }
 
     .votecontainer{
-        margin-top: -20px;
+        margin-top: -10px;
         width: 80px;
         margin-left: 137px;
     }
@@ -241,19 +244,21 @@ body{
 
     .isuhead{
         height: 70px;
-        margin-left: -160px;
+        margin-left: -170px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
-        font-size: 10px;
+        font-size: 15px;
+        margin-top: 0px;
     }
 
     .prsdnt{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .header{
-        border-radius: 0 0 30px 30px;
+        border-radius: 0 0 40px 40px;
     }
 
     .officers-placard{
@@ -307,24 +312,26 @@ body{
 
     .isuhead{
         height: 70px;
-        margin-left: -160px;
+        margin-left: -170px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
-        font-size: 10px;
+        font-size: 15px;
+        margin-top: 0px;
     }
 
     .prsdnt{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .header{
-        border-radius: 0 0 30px 30px;
+        border-radius: 0 0 40px 40px;
     }
 
     .officers-placard{
         height: 180px;
-        width: 340px;
+        width: 323px;
         border-radius: 30px;
     }
 
@@ -337,8 +344,8 @@ body{
     }
 
     .officername{
-        font-size: 16px;
-        width: 150px;
+        font-size: 14px;
+        width: 180px;
         margin-top: 30px;
     }
 
@@ -354,9 +361,9 @@ body{
     }
 
     .votecontainer{
-        margin-top: -28px;
+        margin-top: -20px;
         width: 80px;
-        margin-left: 135px;
+        margin-left: 120px;
     }
 
     .imgvote{
@@ -364,7 +371,7 @@ body{
     }
 
     .votetext{
-        font-size: 12px;
+        font-size: 13px;
     }
     
 }
@@ -374,7 +381,7 @@ body{
     .isuhead{
         height: 80px;
         margin-left: -190px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
@@ -404,26 +411,26 @@ body{
     }
 
     .officername{
-        font-size: 15px;
-        width: 150px;
+        font-size: 18px;
+        width: 230px;
         margin-top: 30px;
     }
 
     .officercourse{
-        font-size: 10px;
-        margin-top: -12px;
+        font-size: 12px;
+        margin-top: -15px;
     }
 
     .officerquote{
         font-size: 12px;
         margin-top: -10px;
-        width: 200px;
+        width: 230px;
     }
 
     .votecontainer{
-        margin-top: -15px;
+        margin-top: -20px;
         width: 80px;
-        margin-left: 170px;
+        margin-left: 160px;
     }
 
     .imgvote{
@@ -431,10 +438,15 @@ body{
     }
 
     .votetext{
-        font-size: 12px;
+        font-size: 15px;
     }
     
 }
+
+/*End of fixing elements
+ayusin to kapag nabasa mo
+etong mga media na nasa baba
+*/
 
 @media screen and (min-width: 414px){
 
