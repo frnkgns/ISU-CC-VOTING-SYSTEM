@@ -2,6 +2,40 @@
     text-align: center;
 }
 
+.isuhead{
+    position: absolute;
+    height: 80px;
+    margin-left: -160px;
+    margin-top: -20px;
+}
+
+.stdntldrs{
+    font-family: sans-serif;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.prsdnt{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px 0 10px 0;
+    background-color: maroon;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.header{
+    color: white;
+    background-color: green;
+    position: sticky;
+    position: -webkit-sticky; 
+    padding-top: 30px;
+    top: 0px;
+    z-index: 1000;
+    border-radius: 0 0 20px 20px;
+}
+
 .candidates{
     display: flex;
     flex-wrap: wrap;
@@ -65,18 +99,8 @@
 
 @media screen and (max-width: 360px){
 
-    .stdntldrs{
-        margin-top: 40px;
-        font-family: sans-serif;
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
-    }
-
-    .prsdnt{
-        font-family: sans-serif;
-        font-weight: bold;
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
+    .header{
+        border-radius: 0 0 30px 30px;
     }
 
     .officers-placard{
