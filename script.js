@@ -10,3 +10,6 @@ entercode.addEventListener("keyup", function(event) {
         window.location.href = "main.html";
     }
 });
+//end of Log in Form
+
+//Start of Main Form

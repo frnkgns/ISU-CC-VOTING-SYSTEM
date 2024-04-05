@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+}
+
+.candidates{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
+@media screen and (max-width: 375px){
+    .isu{
+        text-align: center;
+    }
+    
+}
