@@ -43,6 +43,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: 0.3 ease-in-out;
 }
 
 .president{
@@ -61,12 +62,20 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
+.hide-placard{
+    display: none;
+}
+
+.officers-placard:hover{
+    background-color: #f0f0f0
+}
+
 .imgofficercollege{
     position: absolute;
     background-color: white;
     padding: 5px;
     height: 100px;
-    align-self:last baseline;
+    align-self: last baseline;
     border-radius: 0 50px 50px 40px;
 }
 
@@ -94,11 +103,48 @@ body{
 }
 
 .votecontainer{
+    position: absolute;
     display: flex;
     margin-top: 20px;
     margin-left: 190px;
 }
 
+.voted{
+    background-color: yellowgreen;
+}
+
+.hide{
+    display: none;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  height: 3px;
+  width: 60px;
+  background: linear-gradient(#000 0 0) right/51% 100% no-repeat;
+  display: flex;
+  animation: l10-0 2s linear infinite;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  width: 15px;
+  background: #000;
+  animation: l10-1 2s linear infinite;
+}
+.loader:after {
+  animation-delay: -1s;
+  --s:-1;
+}
+@keyframes l10-1 {
+  0%,100%{transform:scaleX(var(--s,1)) rotate(0)}
+  25%,75%   {transform:scaleX(var(--s,1)) rotate(180deg)}
+}
+
+@keyframes l10-0 {
+  0%,49.9%{transform:scaleX( 1)}
+  50%,100%{transform:scaleX(-1)}
+}
 
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
 @media screen and (min-width: 280px){
@@ -443,17 +489,12 @@ body{
     
 }
 
-/*End of fixing elements
-ayusin to kapag nabasa mo
-etong mga media na nasa baba
-*/
-
 @media screen and (min-width: 414px){
 
     .isuhead{
         height: 80px;
         margin-left: -190px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
@@ -483,26 +524,26 @@ etong mga media na nasa baba
     }
 
     .officername{
-        font-size: 15px;
-        width: 150px;
+        font-size: 18px;
+        width: 230px;
         margin-top: 30px;
     }
 
     .officercourse{
-        font-size: 10px;
-        margin-top: -12px;
+        font-size: 12px;
+        margin-top: -15px;
     }
 
     .officerquote{
         font-size: 12px;
         margin-top: -10px;
-        width: 200px;
+        width: 230px;
     }
 
     .votecontainer{
-        margin-top: -15px;
+        margin-top: -20px;
         width: 80px;
-        margin-left: 170px;
+        margin-left: 160px;
     }
 
     .imgvote{
@@ -510,7 +551,7 @@ etong mga media na nasa baba
     }
 
     .votetext{
-        font-size: 12px;
+        font-size: 15px;
     }
     
 }
@@ -520,7 +561,7 @@ etong mga media na nasa baba
     .isuhead{
         height: 80px;
         margin-left: -190px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
@@ -550,26 +591,26 @@ etong mga media na nasa baba
     }
 
     .officername{
-        font-size: 15px;
-        width: 150px;
+        font-size: 18px;
+        width: 230px;
         margin-top: 30px;
     }
 
     .officercourse{
-        font-size: 10px;
-        margin-top: -12px;
+        font-size: 12px;
+        margin-top: -15px;
     }
 
     .officerquote{
         font-size: 12px;
         margin-top: -10px;
-        width: 200px;
+        width: 230px;
     }
 
     .votecontainer{
-        margin-top: -15px;
+        margin-top: -20px;
         width: 80px;
-        margin-left: 170px;
+        margin-left: 160px;
     }
 
     .imgvote{
@@ -577,7 +618,7 @@ etong mga media na nasa baba
     }
 
     .votetext{
-        font-size: 12px;
+        font-size: 15px;
     }
     
 }
@@ -654,7 +695,7 @@ etong mga media na nasa baba
     .isuhead{
         height: 80px;
         margin-left: -220px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
@@ -720,8 +761,8 @@ etong mga media na nasa baba
 
     .isuhead{
         height: 80px;
-        margin-left: -220px;
-        margin-top: -10px;
+        margin-left: -280px;
+        margin-top: -20px;
     }
 
     .stdntldrs{
@@ -786,16 +827,17 @@ etong mga media na nasa baba
 @media screen and (min-width: 853px){
 
     .isuhead{
-        height: 70px;
-        margin-left: -160px;
+        height: 100px;
+        margin-left: -260px;
+        margin-top: -22px;
     }
 
     .stdntldrs{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .prsdnt{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .header{
@@ -852,16 +894,16 @@ etong mga media na nasa baba
 @media screen and (min-width: 912px){
 
     .isuhead{
-        height: 70px;
-        margin-left: -160px;
+        height: 100px;
+        margin-left: -290px;
     }
 
     .stdntldrs{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .prsdnt{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .header{
@@ -869,8 +911,8 @@ etong mga media na nasa baba
     }
 
     .officers-placard{
-        height: 180px;
-        width: 350px;
+        height: 280px;
+        width: 420px;
         border-radius: 30px;
     }
 
@@ -879,55 +921,54 @@ etong mga media na nasa baba
     }
 
     .imgofficercollege{
-        height: 60px;
+        height: 100px;
     }
 
     .officername{
-        font-size: 15px;
-        width: 180px;
+        font-size: 20px;
+        width: 200px;
         margin-top: 30px;
     }
 
     .officercourse{
-        font-size: 12px;
-        margin-top: -15px;
+        font-size: 15px;
+        margin-top: -20px;
     }
 
     .officerquote{
-        font-size: 12px;
-        margin-top: -10px;
+        font-size: 15px;
+        margin-top: 20px;
         width: 190px;
     }
 
     .votecontainer{
-        margin-top: -25px;
+        margin-top: 10px;
         width: 80px;
-        margin-left: 150px;
+        margin-left: 120px;
     }
 
     .imgvote{
-        height: 40px;
+        height: 60px;
     }
 
     .votetext{
-        font-size: 12px;
+        font-size: 18px;
     }
-    
 }
 
 @media screen and (min-width: 1024px){
 
     .isuhead{
-        height: 70px;
-        margin-left: -160px;
+        height: 100px;
+        margin-left: -360px;
     }
 
     .stdntldrs{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .prsdnt{
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .header{
