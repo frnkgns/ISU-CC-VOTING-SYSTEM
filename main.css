@@ -39,20 +39,20 @@ body{
     border-radius: 0 0 40px 40px;
 }
 
-.candidates{
+.president, .vicepresident{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     transition: 0.3 ease-in-out;
 }
 
-.president{
+.candidates{
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
-.officers-placard{
+.president-placard, .vicepresident-placard{
     display: flex;
     height: 300px;
     width: 500px;
@@ -66,7 +66,7 @@ body{
     display: none;
 }
 
-.officers-placard:hover{
+.president-placard:hover, .vicepresident-placard:hover{
     background-color: #f0f0f0
 }
 
@@ -117,35 +117,6 @@ body{
     display: none;
 }
 
-/* HTML: <div class="loader"></div> */
-.loader {
-  height: 3px;
-  width: 60px;
-  background: linear-gradient(#000 0 0) right/51% 100% no-repeat;
-  display: flex;
-  animation: l10-0 2s linear infinite;
-}
-.loader:before,
-.loader:after {
-  content: "";
-  width: 15px;
-  background: #000;
-  animation: l10-1 2s linear infinite;
-}
-.loader:after {
-  animation-delay: -1s;
-  --s:-1;
-}
-@keyframes l10-1 {
-  0%,100%{transform:scaleX(var(--s,1)) rotate(0)}
-  25%,75%   {transform:scaleX(var(--s,1)) rotate(180deg)}
-}
-
-@keyframes l10-0 {
-  0%,49.9%{transform:scaleX( 1)}
-  50%,100%{transform:scaleX(-1)}
-}
-
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
 @media screen and (min-width: 280px){
 
@@ -167,7 +138,7 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    .officers-placard{
+    .president-placard{
         height: 180px;
         width: 250px;
         border-radius: 30px;
@@ -237,7 +208,8 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 323px;
         border-radius: 30px;
@@ -307,7 +279,8 @@ body{
         border-radius: 0 0 40px 40px;
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 323px;
         border-radius: 30px;
@@ -375,7 +348,8 @@ body{
         border-radius: 0 0 40px 40px;
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 323px;
         border-radius: 30px;
@@ -442,7 +416,8 @@ body{
 
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 370px;
         border-radius: 30px;
@@ -509,7 +484,8 @@ body{
 
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 370px;
         border-radius: 30px;
@@ -576,7 +552,8 @@ body{
 
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 370px;
         border-radius: 30px;
@@ -643,7 +620,8 @@ body{
 
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 250px;
         width: 480px;
         border-radius: 30px;
@@ -710,7 +688,8 @@ body{
 
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 300px;
         width: 680px;
         border-radius: 30px;
@@ -777,7 +756,8 @@ body{
 
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 300px;
         width: 680px;
         border-radius: 30px;
@@ -844,7 +824,8 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 180px;
         width: 323px;
         border-radius: 30px;
@@ -910,7 +891,8 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 280px;
         width: 420px;
         border-radius: 30px;
@@ -975,7 +957,8 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    .officers-placard{
+    
+    .president-placard{
         height: 250px;
         width: 450px;
         border-radius: 30px;
