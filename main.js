@@ -1,17 +1,70 @@
 const president = document.getElementById("president");
 const vicepresident = document.getElementById("vicepresident");
+const treasurer = document.getElementById("treasurer");
+const auditor = document.getElementById("auditor");
+const accountant = document.getElementById("accountant");
+const sascouncil = document.getElementById("sas_council");
+const cbmcouncil = document.getElementById("cbm_council");
+const ccjecouncil = document.getElementById("ccje_council");
+const cedcouncil = document.getElementById("ced_council");
+const ccsictcouncil = document.getElementById("ccsict_council");
+const pscouncil = document.getElementById("ps_council");
+const iatcouncil = document.getElementById("iat_council");
+
+
+let Codes = ['']
 
 
 function Dynamicallycreateelement(){
     //so this is actually an array objects parang mag sstore lang tayo ng maraming varaible sa array
     const Officers = [
-        {position: "president", name:'Frank Ellis A. Gines', collegeimg: 'Pictures/cct.png' ,course: 'BSCS - 3A DM',collegecolor: 'RED',image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving."}, 
+        {position: "president", name:'Frank Ellis A. Gines', collegeimg: 'Pictures/cct.png' ,course: 'BSCS - 3A DM',collegecolor: 'RED',image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle."}, 
         {position: "president", name:'Don Don Comia', collegeimg: 'Pictures/BED.png', course: 'BED - 3A DM', collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "president", name:'Jusip Orinio', collegeimg: 'Pictures/sas.png', course: 'BAELS - 3A DM', collegecolor: 'darkviolet', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "president", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "vicepresident", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "vicepresident", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "vicepresident", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." }
+        {position: "vicepresident", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "treasurer", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "treasurer", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "treasurer", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "accountant", name:'Frank Ellis A. Gines', collegeimg: 'Pictures/cct.png' ,course: 'BSCS - 3A DM',collegecolor: 'RED',image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving."}, 
+        {position: "accountant", name:'Don Don Comia', collegeimg: 'Pictures/BED.png', course: 'BED - 3A DM', collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "accountant", name:'Jusip Orinio', collegeimg: 'Pictures/sas.png', course: 'BAELS - 3A DM', collegecolor: 'darkviolet', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "sas_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "sas_council", name: 'Mark Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "sas_council", name: 'Mark Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "iat_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "iat_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "iat_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "auditor", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "auditor", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "auditor", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "cbm_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+
     ]
 
     //no need ilagay sa object array since lahat naman ng placard gagamit nito
@@ -81,18 +134,49 @@ function Dynamicallycreateelement(){
 
         //ilalagay natin sa perfective positions yung mga candidates, hindi kasi pwedeng nasa president category
         //si treasurer and the rest of the positions, actually maganda to kapag loop
+        var Positions = ['president', 'vicepresident', 'treasurer', 'auditor','accountant', 'sas_council', 'ccsict_council', 'cbm_council', 'ced_council', 'iat_council', 'ccje_council', 'ps_council'];
+
         if(Officers[i].position == 'president'){
             president.appendChild(addOfficers);
 
         } else if(Officers[i].position == 'vicepresident'){
             vicepresident.appendChild(addOfficers);
-        }    
+
+        } else if(Officers[i].position == 'treasurer'){
+            treasurer.appendChild(addOfficers);
+
+        } else if(Officers[i].position == 'accountant'){
+            accountant.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'auditor'){
+            auditor.appendChild(addOfficers);
+            
+        }else if(Officers[i].position == 'sas_council'){
+            sascouncil.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'ccsict_council'){
+            ccsictcouncil.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'ps_council'){
+            pscouncil.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'iat_council'){
+            iatcouncil.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'ccje_council'){
+            ccjecouncil.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'ced_council'){
+            cedcouncil.appendChild(addOfficers);
+            
+        } else if(Officers[i].position == 'cbm_council'){
+            cbmcouncil.appendChild(addOfficers);
+        }
                     
         //then itong function mag seserved sa lahat ng placards ng click function as well as yung hide functions nila
         function showvoted(){
             //then itong part needed para makapag loop tayo sa selection ng placards from pres-businessM
             //katamad kapag mano mano tyaka madaming code masyado
-            var Positions = ['president', 'vicepresident'];
 
             Positions.forEach(function(Positions){
                 var allplacards = document.querySelectorAll('.' + Positions + '-placard');

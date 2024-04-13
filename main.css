@@ -46,7 +46,7 @@ body{
     margin-top: -30px;
 }
 
-.president, .vicepresident{
+.president, .vicepresident,.treasurer, .auditor, .accountant, .sas_council, .cbm_council, .ccje_council, .ced_council, .ps_council, .iat_council, .ccsict_council{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -59,7 +59,7 @@ body{
     align-content: center;
 }
 
-.president-placard, .vicepresident-placard{
+.president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
     display: flex;
     height: 300px;
     width: 500px;
@@ -69,7 +69,7 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.president-placard:hover, .vicepresident-placard:hover{
+.candidates:hover{
     background-color: #f0f0f0
 }
 
@@ -101,15 +101,16 @@ body{
     font-style: italic;
 }
 
-.imgvote{
-    height: 50px;
-}
-
 .votecontainer{
     position: absolute;
+    align-self: last baseline;
     display: flex;
     margin-top: 20px;
     margin-left: 190px;
+}
+
+.imgvote{
+    height: 50px;
 }
 
 .voted{
@@ -141,7 +142,7 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 180px;
         width: 250px;
         border-radius: 30px;
@@ -212,7 +213,7 @@ body{
     }
 
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 180px;
         width: 323px;
         border-radius: 30px;
@@ -420,7 +421,7 @@ body{
     }
 
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 180px;
         width: 370px;
         border-radius: 30px;
@@ -488,7 +489,7 @@ body{
     }
 
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 180px;
         width: 370px;
         border-radius: 30px;
@@ -556,7 +557,7 @@ body{
     }
 
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 180px;
         width: 370px;
         border-radius: 30px;
@@ -624,7 +625,7 @@ body{
     }
 
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 250px;
         width: 480px;
         border-radius: 30px;
@@ -692,7 +693,7 @@ body{
     }
 
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 300px;
         width: 680px;
         border-radius: 30px;
@@ -826,9 +827,8 @@ body{
     .header{
         border-radius: 0 0 30px 30px;
     }
-
-    
-    .president-placard{
+  
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sascouncil-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 180px;
         width: 323px;
         border-radius: 30px;
@@ -893,9 +893,8 @@ body{
     .header{
         border-radius: 0 0 30px 30px;
     }
-
     
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 280px;
         width: 420px;
         border-radius: 30px;
@@ -960,8 +959,7 @@ body{
         border-radius: 0 0 30px 30px;
     }
 
-    
-    .president-placard{
+    .president-placard, .vicepresident-placard, .treasurer-placard, .auditor-placard, .accountant-placard, .sas_council-placard, .cbm_council-placard, .ccje_council-placard, .ced_council-placard, .ps_council-placard, .iat_council-placard, .ccsict_council-placard{
         height: 250px;
         width: 450px;
         border-radius: 30px;
