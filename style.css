@@ -7,16 +7,13 @@ body{
 .logo{
     border-radius: 20px;
     border-color: black;
-}
-
-.isulogo{
-    padding-left: 80px;
+    text-align: center;
+    justify-content: center;
 }
 
 .code{
     height: 30px;
     margin-top: 30px;
-    margin-left: 80px;
     border-radius: 5px;
     border-color: transparent;
     outline: none;
@@ -25,16 +22,26 @@ body{
     text-align: center;
 }
 
-/*End of Log In Form */
-
-
-/*Start of Main Form*/
-.container{
-    background-color: blue;
+.notregistered{
+    border-color: red;
+    border-radius: 5px;
+    transition: ease-in-out;
 }
 
-.president{
-    background-color: brown;
+.noinput{
+    border-color: blue;
+    border-radius: 5px;
+    transition: ease-in-out;
+}
+
+.loggedin{
+    border-color: yellowgreen;
+    border-radius: 5px;
+    transition: ease-in-out;
+}
+
+.hide{
+    display: none;
 }
 
 /*Eto naman is para maging responsive yung website pwede sya sa cp or laptop */
