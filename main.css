@@ -53,7 +53,7 @@ body{
     margin-top: 50px;
 }
 
-.candidates{
+.sscofficers, .collegeofficers{
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -69,7 +69,8 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
-.candidates:hover{
+.president-placard:hover, .vicepresident-placard:hover, .treasurer-placard:hover, .auditor-placard:hover, .accountant-placard:hover, .sas_council-placard:hover, .cbm_council-placard:hover, .ccje_council-placard:hover, .ced_council-placard:hover, .ps_council-placard:hover, .iat_council-placard:hover, .ccsict_council-placard:hover,
+.president-placard.clicked, .vicepresident-placard.active, .treasurer-placard.active, .auditor-placard.active, .accountant-placard.active, .sas_council-placard.active, .cbm_council-placard.active, .ccje_council-placard.active, .ced_council-placard.active, .ps_council-placard.active, .iat_council-placard.active, .ccsict_council-placard.active {
     background-color: #f0f0f0
 }
 
