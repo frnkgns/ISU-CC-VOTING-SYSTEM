@@ -12,9 +12,6 @@ const pscouncil = document.getElementById("ps_council");
 const iatcouncil = document.getElementById("iat_council");
 
 
-let Codes = ['']
-
-
 function Dynamicallycreateelement(){
     //so this is actually an array objects parang mag sstore lang tayo ng maraming varaible sa array
     const Officers = [
