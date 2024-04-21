@@ -5,6 +5,13 @@ const notreg_text = document.getElementById('notreg-text');
 notreg_text.classList.add('hide');
 
 let codes = ['21-11856', '21-4535', '21-23413'];
+let ccsictcodes = ['21-11629', '21-11729', '21-11829'];
+let ccjecodes = ['21-1110', '22-11211', '23-11312'];
+let iatcodes = ['23-80021', '22-70022', '21-60023'];
+let sascodes = ['22-99001', '22-88002', '21-77003'];
+let cbmcodes = ['22-55331', '22-99772', '22-66443'];
+let cedcodes = ['21-11223', '22-22334', '23-33445'];
+let pscodes = ['23-34563', '22-23452', '21-11930'];
 
 //so dinagdagan natin ng eventlistener para may gagawin sya
 //once priness natin yung enter Key sa laptop or sa cp keyboard
@@ -13,7 +20,7 @@ getcode.addEventListener("keyup", function(event) {
     if (event.key == "Enter") {
         for(let i = 0; i < codes.length; i++){
             //so first needed natin icompare kung tama ba yung code na ininput ni user
-            if(codes[i] == getcode.value){
+            if(codes[i] == getcode.value || ccsictcodes[i] || ccjecodes[i] || iatcodes[i] || sascodes[i] || cbmcodes[i] || cedcodes[i], pscodes[i]){
                 //if true go
                 notreg_text.textContent = 'Proceeding to voting area.';
                 getcode.style.boxShadow = 'none'
