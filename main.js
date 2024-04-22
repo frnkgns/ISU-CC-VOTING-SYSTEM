@@ -106,57 +106,26 @@ function Dynamicallycreateelement(){
         {position: "president", name:'Don Don Comia', collegeimg: 'Pictures/ced.png', course: 'CED - 3A DM', collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "president", name:'Jusip Orinio', collegeimg: 'Pictures/sas.png', course: 'BAELS - 3A DM', collegecolor: 'darkviolet', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "president", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        
         {position: "vicepresident", name: 'Michael A. Johnson', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Success is not final, failure is not fatal: It is the courage to continue that counts." },
         {position: "vicepresident", name: 'Christopher M. Smith', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Believe you can and you're halfway there." },
         {position: "vicepresident", name: 'Andrew W. Williams', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The only limit to our realization of tomorrow will be our doubts of today." },
         {position: "vicepresident", name: 'David J. Brown', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "You are never too old to set another goal or to dream a new dream." },
+       
         {position: "treasurer", name: 'Robert E. Miller', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful." },
         {position: "treasurer", name: 'Daniel P. Wilson', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The future belongs to those who believe in the beauty of their dreams." },
         {position: "treasurer", name: 'James L. Martinez', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "It does not matter how slowly you go as long as you do not stop." },
         {position: "treasurer", name: 'Richard S. Taylor', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "In the middle of difficulty lies opportunity." },
+      
         {position: "accountant", name:'Franklin G. Garcia', collegeimg: 'Pictures/cct.png' ,course: 'BSCS - 3A DM',collegecolor: 'RED',image: 'Pictures/male hap badi.png', quotes: "Your time is limited, don't waste it living someone else's life."}, 
         {position: "accountant", name:'Donald T. Thompson', collegeimg: 'Pictures/ced.png', course: 'CED - 3A DM', collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes: "The only way to do great work is to love what you do." },
         {position: "accountant", name: 'Dexter D. Comia', collegeimg: 'Pictures/ced.png', course: 'CED - 3A DM', collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes: "Success is not final, failure is not fatal: It is the courage to continue that counts." },
         {position: "accountant", name: 'Joan O. Orlanes', collegeimg: 'Pictures/sas.png', course: 'BAELS - 3A DM', collegecolor: 'darkviolet', image: 'Pictures/male hap badi.png', quotes: "The only way to do great work is to love what you do." },
-        {position: "sas_council", name: 'Julius L. Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Believe you can and you're halfway there." },
-        {position: "sas_council", name: 'Michael P. Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The future belongs to those who believe in the beauty of their dreams." },
-        {position: "sas_council", name: 'Michael P. Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The future belongs to those who believe in the beauty of their dreams." },
-        {position: "sas_council", name: 'Miguel I. Pascual', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Strive not to be a success, but rather to be of value." },
-        {position: "iat_council", name: 'Martin P. Guinto', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The only limit to our realization of tomorrow will be our doubts of today." },
-        {position: "iat_council", name: 'Matthew P. Gonzales', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Change your thoughts and you change your world." },
-        {position: "iat_council", name: 'Maurice P. Garcia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "It does not matter how slowly you go as long as you do not stop." },
-        {position: "iat_council", name: 'Marvin P. Guevara', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The best way to predict the future is to create it." },
-        {position: "auditor", name: 'Julian L. Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "In the middle of difficulty lies opportunity." },
-                        
+      
+        {position: "auditor", name: 'Julian L. Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "In the middle of difficulty lies opportunity." },                  
         {position: "auditor", name: 'Junny Lester Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "auditor", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
         {position: "auditor", name: 'Mark Paguia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-       
-        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." }, 
-       
-        {position: "cbm_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00    ', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        
-        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        
-        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ced_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        
-        {position: "ced_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
-
     ]
     
     const ccsictOfficers = [
@@ -215,6 +184,11 @@ function Dynamicallycreateelement(){
         {position: "ccsict_BSEMC_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/cct.png', course: "BSCS - 3A DM", collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ccsict_BSEMC_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/cct.png', course: "BSCS - 3A DM", collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ccsict_BSEMC_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/cct.png', course: "BSCS - 3A DM", collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
+
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },      
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccsict_council", name: 'Mark Paguia', collegeimg: 'Pictures/cct.png', course: 'IAT - 3A DM', collegecolor: 'red', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
     ]
     
     const ccjeOfficers = [
@@ -254,6 +228,10 @@ function Dynamicallycreateelement(){
         {position: "ccje_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/crim.png', course: "BSCrim - 2", collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ccje_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/crim.png', course: "BSCrim - 2", collegecolor: 'blue', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ccje_council", name: 'Mark Paguia', collegeimg: 'Pictures/Crim.png', course: 'IAT - 3A DM', collegecolor: '#0000CC', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },        
     ]
 
     const iatOfficers = [
@@ -292,6 +270,11 @@ function Dynamicallycreateelement(){
         {position: "iat_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/agri.png', course: "BAT - 2", collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "iat_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/agri.png', course: "BAT - 2", collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "iat_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/agri.png', course: "BAT - 2", collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
+ 
+        {position: "iat_council", name: 'Martin P. Guinto', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The only limit to our realization of tomorrow will be our doubts of today." },
+        {position: "iat_council", name: 'Matthew P. Gonzales', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Change your thoughts and you change your world." },
+        {position: "iat_council", name: 'Maurice P. Garcia', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "It does not matter how slowly you go as long as you do not stop." },
+        {position: "iat_council", name: 'Marvin P. Guevara', collegeimg: 'Pictures/agri.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The best way to predict the future is to create it." },
     ]
 
     const sasOfficers = [
@@ -356,6 +339,10 @@ function Dynamicallycreateelement(){
         {position: "sas_BSLM_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/sas.png', course: "BAPOS - 3", collegecolor: 'purple', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "sas_BSLM_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/sas.png', course: "BSLM - 2", collegecolor: 'purple', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
 
+        {position: "sas_council", name: 'Julius L. Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Believe you can and you're halfway there." },
+        {position: "sas_council", name: 'Michael P. Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The future belongs to those who believe in the beauty of their dreams." },
+        {position: "sas_council", name: 'Michael P. Paguia', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "The future belongs to those who believe in the beauty of their dreams." },
+        {position: "sas_council", name: 'Miguel I. Pascual', collegeimg: 'Pictures/sas.png', course: 'IAT - 3A DM', collegecolor: 'green', image: 'Pictures/male hap badi.png', quotes: "Strive not to be a success, but rather to be of value." },       
     ]
 
     const cbmOfficers = [
@@ -406,7 +393,12 @@ function Dynamicallycreateelement(){
         {position: "cbm_BSMA_rep", name: "Edith Leonidas", collegeimg: 'Pictures/cbm.png', course: "BSMA - 4", collegecolor: 'yellow', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "cbm_BSMA_rep", name: "Edith Leonidas", collegeimg: 'Pictures/cbm.png', course: "BSMA - 3", collegecolor: 'yellow', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "cbm_BSMA_rep", name: "Edith Leonidas", collegeimg: 'Pictures/cbm.png', course: "BSMA - 2", collegecolor: 'yellow', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
-    ]
+
+        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },        
+        {position: "cbm_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "cbm_council", name: 'Mark Paguia', collegeimg: 'Pictures/cbm.png', course: 'IAT - 3A DM', collegecolor: '#FFCC00    ', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." }, 
+     ]
 
     const cedOfficers = [
         {position: "ced_president", name: "Edith Leonidas", collegeimg: 'Pictures/ced.png', course: "BEED - 4", collegecolor: 'pink', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
@@ -456,7 +448,12 @@ function Dynamicallycreateelement(){
         {position: "ced_BSED_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/ced.png', course: "BSED - 2", collegecolor: 'pink', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ced_BSED_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/ced.png', course: "BSED - 2", collegecolor: 'pink', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ced_BSED_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/ced.png', course: "BSED - 2", collegecolor: 'pink', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
-    ]
+        
+        {position: "ced_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Junny Lester Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ced_council", name: 'Mark Paguia', collegeimg: 'Pictures/ced.png', course: 'IAT - 3A DM', collegecolor: '#0099FF', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+     ]
 
     const psOfficers = [
         {position: "ps_president", name: "Edith Leonidas", collegeimg: 'Pictures/polytechnic.png', course: "BSItech - 4", collegecolor: 'grey', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
@@ -494,6 +491,11 @@ function Dynamicallycreateelement(){
         {position: "ps_BSItech_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/polytechnic.png', course: "BSItech - 2", collegecolor: 'grey', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ps_BSItech_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/polytechnic.png', course: "BSItech - 2", collegecolor: 'grey', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
         {position: "ps_BSItech_2nd_year_rep", name: "Edith Leonidas", collegeimg: 'Pictures/polytechnic.png', course: "BSItech - 2", collegecolor: 'grey', image: 'Pictures/male hap badi.png', quotes:"You will face many defeats in life, but never let yourself be defeated."},
+  
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },      
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
+        {position: "ps_council", name: 'Mark Paguia', collegeimg: 'Pictures/polytechnic.png', course: 'IAT - 3A DM', collegecolor: 'black', image: 'Pictures/male hap badi.png', quotes: "Life is like riding a bicycle. To keep your balance, you must keep moving." },
     ]
 
 
